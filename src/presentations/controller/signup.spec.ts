@@ -18,7 +18,7 @@ describe('Signup Controller', () => {
 })
 
 describe('Signup Controller', () => {
-  test('Should return 400 if no name is provider ', () => {
+  test('Should return 400 if no email is provider ', () => {
     const sut = new SignUpController()
     const httpRequest = {
       body: {
